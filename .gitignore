@@ -1,5 +1,12 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+*.tfplan
+
+node_modules/
+
+.env
+.env.*
+
 terraform.tfvars
-.terraform.lock.hcl
+terraform.tfvars.json
