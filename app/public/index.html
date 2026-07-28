@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECS Aurora Demo</title>
+    style.css
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AWS ECS + Aurora Demo</h1>
+
+    <div class="card">
+        <h2>Environment</h2>
+        <p id="env"></p>
+    </div>
+
+</div>
+
+<script>
+
+fetch('/api/version')
+.then(r => r.json())
+.then(d => {
+    document.getElementById("env").innerText =
+    d.environment;
+});
+
+</script>
+
+</body>
+</html>
