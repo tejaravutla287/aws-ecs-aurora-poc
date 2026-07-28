@@ -1,0 +1,8 @@
+environment      = "staging"
+project_name     = "website"
+aws_region       = "ap-south-1"
+hosted_zone_name = "example.com"
+image_uri        = "xxxxxxxx.dkr.ecr.ap-south-1.amazonaws.com/web:staging"
+certificate_arn  = "arn:aws:acm:ap-south-1:xxxxxxxx:certificate/xxxx"
+db_username      = "admin"
+db_password      = "Password123!"
